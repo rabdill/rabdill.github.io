@@ -45,11 +45,13 @@
     <!-- Fixed navbar -->
     <div class=" navbar-default navbar-fixed-top" role="navigation" id="menuDiv">
           <ul id="menuList">
-            <li><a href="#top" class="scroll">Top</a></li>
-            <li><a href="#about" class="scroll">About</a></li>
-            <li><a href="#projects" class="scroll">Projects</a></li>
-            <li><a href="#stuff" class="scroll">Technical skills</a></li>
-            <li><a href="#email" class="scroll">Contact</a></li>
+            <li><a href="#top" class="scroll">Top</a>
+            <li><a href="#about" class="scroll">About</a>
+            <li><a href="#projects" class="scroll">Projects</a>
+            <li><a href="#stuff" class="scroll">Technical skills</a>
+            <li><a href="#email" class="scroll">Contact</a>
+            <li>|
+            <li><a href="http://blog.richabdill.com">Blog</a>
           </ul>
     </div>
 
@@ -62,7 +64,7 @@
         <ul style="padding-left: 0;">   <!--    padding prevents list from being indented 15px off-center  -->
             <li class="social-logo"><a href="http://www.twitter.com/blabdill"><img src="img/somicro/twitter.png"></a></li>
 	    <li class="social-logo"><a href="http://www.linkedin.com/in/rabdill/"><img src="img/somicro/linkedin.png"></a></li>
-	    <li class="social-logo"><a href="http://techblob.tumblr.com"><img src="img/somicro/tumblr.png"></a></li>
+	    <li class="social-logo"><a href="http://blog.richabdill.com"><img src="img/somicro/wordpress.png"></a></li>
             <li class="social-logo"><a href="http://www.github.com/rabdill"><img src="img/somicro/github.png" ></a></li>
 	    <li class="social-logo"><a href="mailto:iam@richabdill.com"><img src="img/somicro/email.png"></a></li>
         </ul>
@@ -71,68 +73,53 @@
    
 <div class="container" >
         <h2 id="about">About</h2>
-        <p class="indent">I'm a 24-year-old devops professional living outside of Washington, DC. I ride a motorcycle, hang out with a hedgehog named Chalupa,
-          and have infinity percent more tattoos than my mother would prefer. My favorite color is green, but it used to be blue. My favorite
-          book is <i>Catch-22</i>, and my favorite sport is spreadsheets.</p>
-          
-          
-          
-    <section id="projects">
-            <h2>Projects</h2>
-         <div class="indent">
-            <h3>Hubbub DC</h3>
-                <p class="indent">A database of DC happy hour specials searchable by date/time, Metro stop, and price of drinks.
-                Written as an exercise in learning PHP and MySQL.</p>
-
-            <h3>TreasureMeasure</h3>
-                <p class="indent">A personal budgeting application for people who hate personal budgeting. Intricately descriptive without
-                being too complicated&#151;it simulates your checking account months (or years) into the future, to help you better plan practical
-                financial goals. Still in alpha testing.</p>
-                
-            <h3>AdventureNet</h3>
-                <p class="indent">A tool for authoring hypertext-based interactive fiction. Written in PHP and MySQL, with a responsive design using
-                customized Bootstrap stylesheets. Provides a GUI that allows the user to write a <i>Choose Your Own Adventure</i>-style computer game
-                in a browser without any programming. Still in preliminary testing.</p>
-
-            <h3>Bishop's Map</h3>
-                <p class="indent">A basic, text-based gaming engine written in Python that allows amateur programmers to prototype <i>Zork</i>-style
-                interactive fiction games without having to first learn about Python objects and classes. Will also function as a basic Python tutorial. Still
-                in progress.</p>
-                
-            <h3>Open-source contributions</h3>
-                <ul>
-                    <li><strong>Contact Congress project</strong>: Wrote a markup file analyzing the structure of Sen. Chris Murphy's online
-                  contact form as part of the project to build a unified method of contacting members of Congress &#151; a project benefiting
-                  efforts at the Electronic Frontier Foundation and Sunlight Foundation. Written in YAML.</li>
-                    <li><strong>Grails.org</strong>: Found and repaired bug that incorrectly built links to tutorial videos. Written in Grails.</li>
-                </ul>
-        </div>
-    </section>   
+        <p class="indent">My name is Rich. I love working in DevOps, I ride a motorcycle, I hang out with a hedgehog named Chalupa.
+   	My favorite color is green, but it used to be blue. My favorite book is <i>Catch-22</i>, and my favorite sport is spreadsheets.</p>
     
-    
+	<h2>What I do</h2>
+	<p>I'm currently a systems engineer at Gannett Co., where my focus is on supporting the infrastructure for Gannett sites including <a href="http://www.usatoday.com">USA Today</a>, 
+	<a href="http://www.tripology.com/">Tripology</a>, and <a href="http://thepoint.usatoday.com">The Point</a>. My work is almost exclusively within
+	Amazon Web Services, where I assist in the architecture and maintenance of systems encompassing EC2, RDS, Route 53, SQS, S3, CloudWatch... you get the idea. Much of 
+	my work (and my interest) lies in automation and continuous integration, and I'm very familiar with systems such as Jenkins and Chef.</p>
+	
+	<p>It's within the DevOps/systems automation arena that I find the most enjoyment &ndash; I love writing code, especially when the result is a big, red button 
+	that will do my work for me.</p>
+	
+	
     <section id="skillsTable">
         <h2 id="stuff">Stuff I know</h2>
             <table class="table table-striped">
+                <thead>
+                	<tr>
+                	<th>
+                	<th>A lot
+                	<th>A little
+                	</tr>
+                </thead>
                 <tbody>
                 <tr>
                     <td><strong>Languages</strong></td>
-                    <td>BASH, HTML, CSS, Python, PHP, Javascript, MSSQL/MySQL, English</td>
+                    <td>BASH, HTML, CSS, PHP, English
+                    <td>Python, PHP, Javascript, MSSQL/MySQL</td>
                 </tr>
                 <tr>
                     <td><strong>Software/SaaS</strong></td>
-		    <td>Chef, Jenkins, Apache (and Tomcat), Jenkins, Nginx, Nagios, PuTTY, JIRA, Confluence, IIS 
+		    <td>Chef, Jenkins, Apache (and Tomcat), Nginx, JIRA, Confluence
+		    <td>uWSGI, Nagios, IIS 
                 </tr>
                 <tr>
                     <td><strong>Operating systems</strong></td>
-		    <td>CentOS/RHEL, Amazon Linux, Windows (Vista, 7, Server 2008 R2), ChromeOS
+		    <td>CentOS/RHEL, Amazon Linux, Windows (XP, Vista, 7), ChromeOS
+		    <td>Ubuntu, Windows Server 2008 R2
                 </tr>
                 <tr>
                     <td><strong>Amazon Web Services</strong></td>
-		    <td>EC2 (and VPC), RDS, Route53, IAM, CloudFormation, Elastic Beanstalk, S3/Glacier, CloudWatch
+		    <td>EC2 (and VPC), RDS, Route53, S3/Glacier, IAM, CloudWatch
+		    <td>CloudFormation, Elastic Beanstalk
                 </tr>
             </table>
     </section>
-
+    
     <section id="email">
         <h2>Magic email form!</h2>
             <div style="margin-left: 15%; margin-right: 15%;">
