@@ -22,6 +22,33 @@
 <script type='text/javascript' src="js/bootstrap.min.js"></script>
 <script type='text/javascript' src="js/abdill.js"></script>
 
+
+<!-- Smooth transition thing: -->
+    <!-- fade in: -->
+        <script type="text/javascript">
+            $(document).ready(function() {
+                    $(".container").css("display", "none");
+                    $(".container").fadeIn(1000);
+            });
+        </script>
+    <!-- fade out: -->
+        <script type="text/javascript">
+        $(document).ready(function() {         
+            $("a.transition").click(function(event){
+                event.preventDefault();
+                linkLocation = this.href;
+                $(".container").fadeOut(1000, redirectPage);      
+            });
+                 
+            function redirectPage() {
+                window.location = linkLocation;
+            }
+        });
+        </script>
+
+
+
+
   </head>
 
 <body id="top">
@@ -45,12 +72,12 @@
     <!-- Fixed navbar -->
     <div class=" navbar-default navbar-fixed-top" role="navigation" id="menuDiv">
           <ul id="menuList">
-            <li><a href="#top" class="scroll">Top</a>
+            <li><a href="#top" class="scroll">Home</a>
             <li><a href="#about" class="scroll">About</a>
             <li><a href="#stuff" class="scroll">Technical skills</a>
             <li><a href="#email" class="scroll">Contact</a>
             <li>|
-            <li><a href="https://richabdill.com/blog">Blog</a>
+            <li><a href="notes/index.html" class="transition">Notes</a>
           </ul>
     </div>
 

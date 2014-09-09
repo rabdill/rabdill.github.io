@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The internet home of Rich Abdill, just a DevOps guy  who loves building stuff people like.">
+    <meta name="author" content="Rich Abdill">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <title>Rich Abdill | IT Tinkerer</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Allan' rel='stylesheet' type='text/css'>
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/abdill.css" rel="stylesheet">
+
+<!-- smooth scrolling -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script type='text/javascript' src="../js/bootstrap.min.js"></script>
+<script type='text/javascript' src="../js/abdill.js"></script>
+
+
+
+<!-- Smooth transition thing: -->
+    <!-- fade in: -->
+        <script type="text/javascript">
+            $(document).ready(function() {
+                    $(".container").css("display", "none");
+                    $(".container").fadeIn(1000);
+            });
+        </script>
+    <!-- fade out: -->
+        <script type="text/javascript">
+        $(document).ready(function() {         
+            $("a.transition").click(function(event){
+                event.preventDefault();
+                linkLocation = this.href;
+                $(".container").fadeOut(1000, redirectPage);      
+            });
+                 
+            function redirectPage() {
+                window.location = linkLocation;
+            }
+        });
+        </script>
+
+
+  </head>
+
+<body id="top">
+<!-- google tracker     -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-48519225-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+
+    <!-- Fixed navbar -->
+    <div class=" navbar-default navbar-fixed-top" role="navigation" id="menuDiv">
+          <ul id="menuList">
+            <li><a href="../index.html" class="transition">Home</a>
+            <li><a href="#about" class="scroll">About</a>
+          </ul>
+    </div>
+
+
+    <div class="jumbotron container">
+            <h1>Rich Abdill</h1>
+            <h2>Industry notes<br>and miscellaneous ramblings</h2>
+   </div>
+   
+<div class="container" >
+        <h2 id="about">Who I am</h2>
+        
+    
+    
+
+      <div class="footer">
+        <p>&copy; 2014</p>
+      </div>
+
+    </div> <!-- /container -->
+
+
+  </body>
+</html>
+

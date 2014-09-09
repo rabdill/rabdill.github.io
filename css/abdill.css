@@ -1,3 +1,7 @@
+html {
+  background-color: #FFDAB9;
+}
+
 #menuDiv   {
     right: auto;
     padding:  0 20px 0 0;
@@ -62,7 +66,8 @@ a:hover {
     
 /* Space out content a bit */
 body {
-    background: url(../img/retina_wood.png) repeat 0 0;     /*  background image via www.subtlepatterns.com, you should definitely go there. */
+    /* background: url(../img/retina_wood.png) repeat 0 0;      background image via www.subtlepatterns.com, you should definitely go there. */
+    background-color: #FFDAB9;
     padding-top: 25px;
     padding-bottom: 200px;
     font-family: 'Cabin', sans-serif;
