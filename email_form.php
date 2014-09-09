@@ -73,6 +73,10 @@ if(isset($_POST['email'])) {
     $email = $_POST['email']; // required
  
     $message = $_POST['message']; // required
+
+    $test = $_POST['test']
+
+    if($test != "4") died("You didn't answer the anti-spam question correctly, friend. Or should I say... ROBOT?!")
  
      
  
