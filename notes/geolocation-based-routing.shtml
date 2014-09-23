@@ -1,4 +1,4 @@
-<!--#include file="header.html" -->
+<!--#include file="header1.html" -->Automating Route 53 Routing Transitions<!--#include file="header2.html" -->
 
 
 
@@ -34,10 +34,11 @@ aws route53 change-resource-record-sets --hosted-zone-id $hosted_zone --change-b
 
 <p class="indent">With this setup, all you'd have to do is call something like
 <pre>./geolocation.sh east-only</pre>
-And the script would reset all your Route 53 records for you. (This also makes things a little easier if you're trying to trigger this script from elsewhere, such as Jenkins.)
+
+<p class="indent">And the script would reset all your Route 53 records for you. (This also makes things a little easier if you're trying to trigger this script from elsewhere, such as Jenkins.)
 
 <p class="indent">That's the whole thing; the only piece left is putting together the JSON. If you're not using all this geolocation stuff and just using a weighted or latency-based routing policy, the DNS setup is pretty simple:
-<table>
+<table class="table">
     <thead>
         <tr>
             <th>Name
@@ -69,9 +70,94 @@ And the script would reset all your Route 53 records for you. (This also makes t
     </tbody>
 </table>
 
-<p class="indent">So the JSON docs would be pretty straightforward:
+<p class="indent">So the JSON docs would be pretty straightforward. (<a href="http://docs.aws.amazon.com/cli/latest/reference/route53/change-resource-record-sets.html">The documentation is helpful too.</a>) Probably something like:<br>
 <strong>active-active.json</strong>
-<pre></pre>
+<pre>{
+  "Comment": "moving to active/active",
+  "Changes": [
+    {
+      "Action": "UPSERT",
+      "ResourceRecordSet": {
+        "Name": "yourdomain.com",
+        "Type": "A",
+        "SetIdentifier": "send to west data center",
+        "Region": "us-west-2",
+        "AliasTarget": {
+          "HostedZoneId": "H0ST3DZ0N3EX4MPL3",
+          "DNSName": "west.yourdomain.com",
+          "EvaluateTargetHealth": false
+        }
+      }
+    },
+    
+    {
+      "Action": "UPSERT",
+      "ResourceRecordSet": {
+        "Name": "yourdomain.com",
+        "Type": "A",
+        "SetIdentifier": "send to east data center",
+        "Region": "us-east-1",
+        "AliasTarget": {
+          "HostedZoneId": "H0ST3DZ0N3EX4MPL3",
+          "DNSName": "east.yourdomain.com",
+          "EvaluateTargetHealth": false
+        }
+      }
+    }
+  ]
+}
+</pre>
+<p class="indent">To make east-only.json, you could copy this file, change "west.yourdomain.com" to "east.yourdomain.com," and you'd be done. Ditto for west.
+
+<p class="indent">For the geolocation stuff, only a few parameters change:<br>
+<strong>active-active.json</strong>
+<pre>
+{
+"Comment": "configuring geolocation",
+"Changes": [
+  {
+    "Action": "UPSERT",
+    "ResourceRecordSet": {
+      "Name": "youdomain.com",
+      "Type": "A",
+      "SetIdentifier": "default route",
+      "GeoLocation": {
+        "CountryCode":"*"
+      },
+      "AliasTarget": {
+        "HostedZoneId": "H0ST3DZ0N3EX4MPL3",
+        "DNSName": "east.yourdomain.com.",
+        "EvaluateTargetHealth": false
+      }
+    }
+  },
+
+  {
+    "Action": "UPSERT",
+    "ResourceRecordSet": {
+      "Name": "yourdomain.com",
+      "Type": "A",
+      "SetIdentifier": "traffic from alaska",
+      "GeoLocation": {
+        "CountryCode": "US",
+        "SubdivisionCode": "AK"
+      },
+      "AliasTarget": {
+        "HostedZoneId": "H0ST3DZ0N3EX4MPL3",
+        "DNSName": "west.yourdomain.com.",
+        "EvaluateTargetHealth": false
+      }
+    }
+  },
+
+  {...}
+}
+</pre>
+
+<ul>
+  <li>To finish active-active.json, repeat the AK section for every state you want to go to the west-coast data center, call it a day.
+  <li>To go west-only, you would just change the default entry to point to west.
+  <li>To go east only, do a find and replace to change all the "west.yourdomain.com" entries into "east.yourdomain.com."
 
 
       <div class="footer">
