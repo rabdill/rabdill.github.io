@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="The internet home of Rich Abdill, just a DevOps guy who loves building stuff people like.">
+	<meta name="author" content="Rich Abdill">
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<title>Rich Abdill | IT Tinkerer</title>
+
+	<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet" type="text/css">
+	<link href='https://fonts.googleapis.com/css?family=Allan' rel='stylesheet' type='text/css'>
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/abdill.css" rel="stylesheet">
+
+<!-- smooth scrolling -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script type='text/javascript' src="js/bootstrap.min.js"></script>
+<script type='text/javascript' src="js/abdill.js"></script>
+
+
+
+<!-- Smooth transition thing: -->
+	<!-- fade in: -->
+		<script type="text/javascript">
+			$(document).ready(function() {
+					$(".container").css("display", "none");
+					$(".container").fadeIn(1000);
+			});
+		</script>
+	<!-- fade out: -->
+		<script type="text/javascript">
+		$(document).ready(function() {
+			$("a.transition").click(function(event){
+				event.preventDefault();
+				linkLocation = this.href;
+				$(".container").fadeOut(1000, redirectPage);
+			});
+
+			function redirectPage() {
+				window.location = linkLocation;
+			}
+		});
+		</script>
+
+
+  </head>
+
+<body id="top">
+	<!-- Fixed navbar -->
+	<div class=" navbar-default navbar-fixed-top" role="navigation" id="menuDiv">
+		  <ul id="menuList">
+			<li><a href="/" class="transition">Home</a>
+			<li>|
+      <li><a href="notes.html" class="transition">Notes</a>
+		  </ul>
+	</div>
+
+
+  <div class="jumbotron container">
+			<h1>Rich Abdill</h1>
+			<h2>Notes and ramblings</h2>
+
+	<div class="row centeredText">
+		<ul style="padding-left: 0;">   <!--	padding prevents list from being indented 15px off-center  -->
+			<li class="social-logo"><a href="https://www.twitter.com/blabdill"><img src="img/somicro/twitter.png"></a></li>
+		<li class="social-logo"><a href="http://www.linkedin.com/in/rabdill/"><img src="img/somicro/linkedin.png"></a></li>
+			<li class="social-logo"><a href="http://www.github.com/rabdill"><img src="img/somicro/github.png" ></a></li>
+		<li class="social-logo"><a href="mailto:iam@richabdill.com"><img src="img/somicro/email.png"></a></li>
+		</ul>
+	</div>
+   </div>
+
+<div class="container" >
+
+  <h1 id="writing">Hiring Is Not Meritocratic, Stupid</h2>
+
+  <p>White supremacy is not a rare commodity on the internet. The denial of institutional racism is one of the more benign manifestations, which can be almost forgiven&mdash;<em>almost</em>&mdash;as a position espoused out of ignorance instead of malice.
+
+  <p>If someone has never been personally exposed to racial injustice and doesn't read the newspaper, it's not unreasonable for them to assume the system works as they're told it does: The courts are <a href="http://thinkprogress.org/justice/2013/05/18/2032401/federal-appeals-court-drug-sentencing-disparity-is-intentional-racial-subjucation/">color blind</a>, cities wouldn't <a href="http://www.justice.gov/sites/default/files/opa/press-releases/attachments/2015/03/04/ferguson_police_department_report.pdf">intentionally issue tickets to black people</a> just to make money, police wouldn't <a href="http://henrycountyreport.com/blog/2015/12/01/leaked-documents-reveal-dothan-police-department-planted-drugs-on-young-black-men-for-years-district-attorney-doug-valeska-complicit/">plant drugs on innocent people</a>. These things, to someone who doesn't care enough to learn about them, seem intuitive.
+
+  <p>The more severe supremecist rhetoric is, unfortunately, not particularly rare either. It's not used as a defensive mechanism, like the "oh, <em>I'm</em> not racist" crowd described above, but as an attack &ndash; they make the logical jump from the assertion that minorities have no systemic disadvantages, and say that since the system isn't to blame, minorities must simply be defective. White people shouldn't be blamed, they say, just because white people are simply superior.
+
+  <p>Both of these positions are abhorrent, and rooted in a selfish stupidity that refuses to re-examine any system that "isn't broken," according to the privileged people perpetuating its injustices. Yesterday, both of these positions came roaring into the TechCrunch comments section... again.
+
+  <p>Admittedly, I'm not a huge fan of the story, <a href="http://techcrunch.com/2015/12/13/dear-white-people-you-suck-at-diversity/">"Dear White People, You Suck At Diversity,"</a> which attempts to point out that "diversity" in tech is being fundamentally misunderstood by the mostly-white people charged with bringing it into their organizations. It ends up being a kind of ham-handed gripe about intersectionality, but that's honestly beside the point: The comments, by and large, don't address that the column doesn't take the time to explain the complex dynamics it's citing, or ask questions about what actionable steps can be taken. No, for the most part, the comments just say, "Quit blaming us white people, we're just better." If you think I'm exaggerating, here's a comment that got 22 likes:
+
+    <blockquote>If you don't like living among white people then by all means stay in your own end of town I guarantee there will be no complaints from white people for we are sick and tired of your crimes and hatred toward us!! Perhaps your race woould get along better with the Muslims!</blockquote>
+
+    And here's one that not only denies that "transphobia" is a word, but also <a href="http://whitegenocideproject.com/anti-racist-is-a-codeword-for-anti-white/">literally uses a white nationalist tagline</a>:
+    <blockquote>Bleen, I think it's reached the point where we can no longer have A rational converation with this far left nonsense. when we talk about intersectionlity? Is that even A real word!? Muli faceted layers of discrimation!? WOW! When every sentence reminds us that we racist, sexist, homophophic, and the new favorite word of the far left loons transphophic! <strong>We all know what diversity means, it's A politically correct term that means anybody but white!</strong> I Think it's far past time that we stop trying to appease these far left idiots and start tellin them that tried and true American saying. If you don't like it , YOU CAN GO FUCK YOURSELF!!!!!!!!!!!!!</blockquote>
+
+    In a remarkable show of restraint, this one only got 10 likes:
+    <blockquote>Here is the answer to this... we allowed the black community to stay America for the chance to become 'civilized', to achieve to make a 'betterment' of themselves in a country where they knew their chances were slim to none to achieve.<br>
+      <br>
+    The issues are not about the color of ones skin, the issues are about 'uncivilized' persons not able to apply themselves to be civilized. What then we should do to correct this, is to rid the 'Birthright Amendment', those that fall under it be deported back to their homelands and allow them to live in their level of life.<br>
+    <br>
+    We can only higher the standards, we should not lower the standrds for some that do not want to improve themselves. And if America wants to rid itself of 'Racism'... I do believe that it will go when we deport out of America........</blockquote>
+
+  <p>You get the idea. There are some comments with a more nuanced <a href="http://www.scientificamerican.com/article/how-diversity-makes-us-smarter/">ignorance</a> ("What makes diversity for diversity's sake important? ... Diversity in and of itself is neither a good or a bad thing."), but for the most part, the comments are basically an angrier version of Sequoia's Michael Moritz saying, "What we’re not prepared to do, is to lower our standards." Why should qualified whites lose out on jobs to less-qualified minorities?
+
+  <p>There are people who have committed entire academic careers to topics of race, diversity and the difficult answers to important questions, but I wanted to see what one might find if you were an ignoramus like Scott Matern (the "GO FUCK YOURSELF" guy) and had five minutes to Google diversity stuff before retiring back into your "fictional" white privilege. The answer: More than enough to introduce reasonable doubt into the "the system is prejudiced against white men" trope. Even if we completely ignore instances of intentional bias, there is plenty of evidence of the unintentional variety:
+  <ul>
+      <li>There's a <i>USA Today</i> story from October 2014 with the headline <a href="http://www.usatoday.com/story/tech/2014/10/12/silicon-valley-diversity-tech-hiring-computer-science-graduates-african-american-hispanic/14684211/">"Tech jobs: Minorities have degrees, but don't get hired"</a> that leaves a lot open to interpretation but raises important questions:
+        <blockquote>
+          Top universities turn out black and Hispanic computer science and computer engineering graduates at twice the rate that leading technology companies hire them, a USA TODAY analysis shows.<br>
+          <br>
+          Technology companies blame the pool of job applicants for the severe shortage of blacks and Hispanics in Silicon Valley.<br>
+          <br>
+          But these findings show that claim "does not hold water," said Darrick Hamilton, professor of economics and urban policy at The New School in New York.<br>
+          [...]<br>
+          On average, just 2% of technology workers at seven Silicon Valley companies that have released staffing numbers are black; 3% are Hispanic.<br>
+          <br>
+          But last year, 4.5% of all new recipients of bachelor's degrees in computer science or computer engineering from prestigious research universities were African American, and 6.5% were Hispanic, according to data from the Computing Research Association.</blockquote></li>
+      <li>Another, from the Columbia Business School: <a href="https://www8.gsb.columbia.edu/newsroom/newsn/2700/new-research-proves-gender-bias-extraordinarily-prevalent-in-stem-careers">"New Research Proves Gender Bias Extraordinarily Prevalent in Stem Careers."</a>
+        <blockquote>..."our experiments show that another culprit of this phenomenon is that hiring managers possess an extraordinary level of gender bias when making decisions and filling positions, often times choosing the less qualified male over a superiorly qualified female," [said Ernesto Reuben, assistant professor of management at Columbia Business School.]<br>
+          <br>
+          In an experiment in which participants were hired to perform a mathematical task, both male and female managers were twice as likely to hire a man than a woman — even when the managers had no information beyond a candidate’s appearance and, therefore, gender.<br>
+          <br>
+          Dr. Reuben continued: "The end result is not only a less diverse workforce and a male–dominated STEM field, but also a detriment to these companies for hiring the less–skilled person for the job."</blockquote></li>
+
+      <li>The <i>New York Times</i> did a story last year about Google investigating its own internal biases: <a href="http://www.nytimes.com/2014/09/25/technology/exposing-hidden-biases-at-google-to-improve-diversity.html?_r=0">"Exposing Hidden Bias at Google."</a>
+        <blockquote>
+          Mr. Bock wondered how such unconscious biases were playing out at Google. "This is a pretty genteel environment, and you don’t usually see outright manifestations of bias," he said. "Occasionally you’ll have some idiot do something stupid and hurtful, and I like to fire those people."<br>
+          <br>
+          But Mr. Bock suspected that the more pernicious bias was most likely pervasive and hidden, a deep-set part of the culture rather than the work of a few loudmouth sexists.<br>
+          [...]<br>
+          The effect of bias is powerful, and it <strong>isn’t softened by Silicon Valley’s supposedly meritocratic culture</strong>. In the lecture, Dr. Welle shows a computer simulation of how a systematic 1 percent bias against women in performance evaluation scores can trickle up through the ranks, leading to a severe underrepresentation of women in management.<br>
+          <br>
+          Finally, Dr. Welle points to research showing that we aren’t slaves to our hidden biases. The more we make ourselves aware of the role our unconscious plays in our decision-making, and the more we try to force others to confront their biases, the greater the chance we have of overcoming our hidden preferences.</blockquote></li>
+        <li>And <a href="http://blogs.discovermagazine.com/cosmicvariance/2012/09/19/scientists-your-gender-bias-is-showing/#.Vm4kbVLLcTs">a 2012 study from Yale</a> that found gender bias in the evaluation of job applications, covered by the <i>New York Times</i> under the headline <a href="http://www.nytimes.com/2012/09/25/science/bias-persists-against-women-of-science-a-study-says.html?_r=0">"Bias Persists for Women of Science, a Study Finds"</a>:<br>
+            <blockquote>
+              Science professors at American universities widely regard female undergraduates as less competent than male students with the same accomplishments and skills, a new study by researchers at Yale concluded.<br>
+              <br>
+              As a result, the report found, the professors were less likely to offer the women mentoring or a job. And even if they were willing to offer a job, the salary was lower.<br>
+              <br>
+              The bias was pervasive, the scientists said, and probably reflected subconscious cultural influences rather than overt or deliberate discrimination.<br>
+              [...]<br>
+              “I think we were all just a little bit surprised at how powerful the results were — that not only do the faculty in biology, chemistry and physics express these biases quite clearly, but the significance and strength of the results was really quite striking,” said Jo Handelsman, a professor of molecular, cellular and developmental biology at Yale.<br>
+              [...]<br>
+              Discussions of gender bias in science and mathematics have long been complicated by a host of factors — including whether women receive preferential treatment through affirmative action or whether innate differences indeed exist between men and women.<br>
+              <br>
+              To avoid such complications, the Yale researchers sought to design the simplest study possible. They contacted professors in the biology, chemistry and physics ... and asked them to evaluate, as part of a study, an application from a recent graduate seeking a position as a laboratory manager.<br>
+              <br>
+              All of the professors received the same one-page summary ... in half of the descriptions, the mythical applicant was named John and in half the applicant was named Jennifer.<br>
+              [...]<br>
+              On a scale of 1 to 7, with 7 being highest, professors gave John an average score of 4 for competence and Jennifer 3.3. John was also seen more favorably as someone they might hire for their laboratories or would be willing to mentor.<br>
+              <br>
+              The average starting salary offered to Jennifer was $26,508. To John it was $30,328.</blockquote></li>
+  <p>I could keep going, and hit studies dealing with all of the demographic slices being slammed in the comments section, but the point is that <strong>there are strong, discriminatory forces at work that can only be seen if you look for them</strong>. To minority candidates, they can't help but look for them. To the privileged white males (yes, we're privileged, look at the links, it's <em>literally science</em>), there are biases introduced at every level of the system that are going unacknowledged, in many cases willfully so. Even the "not racist" among us are biased &ndash; and to not examine how is to concede that we're OK with it.
+
+  <div>
+    <br><br>
+    <em>&mdash;Rich Abdill, December 14, 2015</em>
+  </div>
+	</div> <!-- /container -->
+
+  </body>
+</html>
