@@ -4,59 +4,60 @@ https://keybase.io/rabdill
 
 I hereby claim:
 
-  * I am an admin of http://richabdill.com
+  * I am an admin of https://richabdill.com
   * I am rabdill (https://keybase.io/rabdill) on keybase.
-  * I have a public key with fingerprint A365 C823 61B6 26A7 C818  AA2E D9C2 5B38 0BDB 4982
+  * I have a public key with fingerprint 9650 B90F CF90 E5EF 6086  7E04 4164 36D9 A25D BB99
 
 To do so, I am signing this object:
 
 {
     "body": {
         "key": {
-            "fingerprint": "a365c82361b626a7c818aa2ed9c25b380bdb4982",
+            "eldest_kid": "010129619779c63e0e53727262cd1037af29dc7d692f92e87a16417b73605586ffa60a",
+            "fingerprint": "9650b90fcf90e5ef60867e04416436d9a25dbb99",
             "host": "keybase.io",
-            "key_id": "d9c25b380bdb4982",
-            "kid": "010167b1135b84d230e89291b62384e247403b8d7e17cbbfe8d91e0c86b76423dee50a",
+            "key_id": "416436d9a25dbb99",
+            "kid": "010129619779c63e0e53727262cd1037af29dc7d692f92e87a16417b73605586ffa60a",
             "uid": "8bfcf27eb7f855292983198c46505b19",
             "username": "rabdill"
         },
         "service": {
             "hostname": "richabdill.com",
-            "protocol": "http:"
+            "protocol": "https:"
         },
         "type": "web_service_binding",
         "version": 1
     },
-    "ctime": 1432667758,
+    "ctime": 1450066609,
     "expire_in": 157680000,
-    "prev": "d4756ac0532af0619381e0120d5f48ecc1a478b7607780123e5b3706e1836291",
-    "seqno": 4,
+    "prev": "8a25ac8d93dd3bd42d5fec07ead5102222e5fd82e7cdf7048377771394e1aeea",
+    "seqno": 9,
     "tag": "signature"
 }
 
 which yields the signature:
 
 -----BEGIN PGP MESSAGE-----
-Version: Keybase OpenPGP v2.0.8
+Version: Keybase OpenPGP v2.0.49
 Comment: https://keybase.io/crypto
 
-yMIXAnicbVJbSBRRGF4zLe22EYIPGTYqipieuZ/dIjLCNNMSihLEdc6ZM+vk7sw6
-u2uJmWhFEIpIbQQRBT0kYZJUTz5opr4YFF4hhIwUu7AZ+VCCl85YvnVeDuf7v+/7
-z//xD+6IdSTGpGmFewr2SadiRl7lhx1n1WGjgUGmWs+4G5gasn5puuElVsDSjRDj
-ZhReEjHkeIlFEicpMoYsVBSOqC7MiYiHAKlIcEGOyWGqzaCtoDZICZJc3aQYfXh0
-laL/4desFwALWElGLMuLCAoqxwMCXZzLbsdDgXCCLAAeQVUmrIwR0ghUXSwBGEpI
-lgSOVwkRgULtwut2EGlY42SCZA2KIkedIM+6IBYkEYiIddnEILEMxU8o21KQqvt8
-TGMOQ8E6HRM7AXuQDYKOq/9ycrHpp+KAZYZMbPporToUCrhtaag+YHMvEuT55+JB
-uqHSHKmgjlhB3TQYN0uZOKTbtqzAc5IkyyLMYcilgG4Rj24zRFmCgB67DamzUxNk
-UVIwEHlO0YDEunhIZ2c5oIqaAAnGrCLIkAYBZBlSnCc0YxlIhIW8RENk7LlqDZNx
-C/SbipdaBnWvoYTCFmEaB/orNjtiEh3xcZvsTXAkJjg39sOXumWtYu3j4DD8OpD+
-IRqeikw9GrkXW/u9dfIHX/X+QrSwYPfNGSduQi0vd1o/V6d3rsSWBc4dOtgtLK+A
-k/1XH5eeWdj1bH4GZabB+Kyjb7qSnZH2Anc0sr2o48T8+chKU/MLZ1VpVeds8sPB
-5rni8Wja/aG+30l7S7qeJxSme0Bf6eGypIHX+0FzSxHOb7TyihNXP811p36pGp2A
-g1qcVdI7eXrR0RtYmn7QNp/nHbo9kt7eamS8S7nR8cS/vK0yIyHl2tvPPaG2iXGn
-484w9l5/Otbj62g/3rkwc3npCL+YmzlQeWw2+9ZWp2/0yt2l8m+/ig+MwVG/WF4c
-yIr0Z/8BnV8krg==
-=gPsn
+yMIkAnicrVJbaBNBFE0Ta21E0Z+igorrg4ilzL5mdkIQUSrio0XEUG0l3d2ZTZam
+uzG7iUopfvmglAr1VYooovVJFa1QP+qrFFFrQVSw+A5FjCgoasRHQWer/vnp/Rnm
+zjnnnnuYgUkBX7DIKq62oonSvUWDNzoyvqi19EITp9lkGxdu4hro2EGThDpurMEk
+XJgDPOAFDHmMENahSAGVRSQgAQo64YGIVEPAREcEYsHAAlWQykOJRxoSIZBlBRqG
+CoHKlXOGacVpOpU2LZfJYigDDQNDNzBTpAYECkQUSBJji5BgVZCJpmHMiAnb8RjM
+nKY6tMK0WY9dYmP2/oH/z74zY3KKxqwKiGrIUGRZwAJWRB4rusT2kDXem5txaNpS
+GylDp1WNmMkk11zOsWbW1KmXq7fIX4CpJ35jKnS7kZFTadu1dTvJ3hKum3LCHtfd
+lvLAW6gW+yMT00yLsCAZI0vTjmlbXJhnSN01PV1ekgGAEAJcztGtKTNNY6aHkBFU
+ACtvDs1667C8VF0hWCRE1IgkENmgOkBUJTIPBFZUNogiUKQTAwFJERErXsQS5VVK
+vVwcutmyuTCb5KpxJumYcUt1M2nKNfdfrxvnKwr6xhf7vQ/mC5ZO+fvtHrwr+bmq
+8v26pVsDj8v8H/Nzc/v8kx593fxlbcfdnISGgusuGF2D36q+55rO5SOFTOSjeKXH
+WdJ28G3D5LPHW8uqC7fWt46oJy7Xvq1MrsrcCMC+uvktu0/n6QwYobVvbgdfFvy6
+ufjaqZJ49unGRfe+91yct/rJ9sGRO6MvlYOoRfS1Pxu+WvphQTQ3XD872DnhhT3x
+yvENO7s2jIQeOjX7fwx0fN5T9q23yl+dFAr90301w+ejZ1KjEza17XguL6xf/er1
+sTnhqSG6pu7A4pPLh/T70488r9CWRT4FZl56fGjli9787v3NensuNK2za1ZVd0n3
+jL5G/ubh0aP+icEVu+6/DnX+AkCDPsk=
+=J1aM
 -----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
