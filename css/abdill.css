@@ -7,12 +7,12 @@ html {
     padding:  0 20px 0 0;
     border-radius: 0 50px 50px 0;
     box-shadow: 5px 5px 15px #aaa;
-    }
-    
-.datestamp  {    
+}
+
+.datestamp  {
     margin-top: -10px;
     font-style:italic;
-    }
+}
 
  @media (max-width: 568px) {
     #menuDiv    {
@@ -25,46 +25,43 @@ html {
     border-width: 0 0 1px 0;
     border-color: #C2C2C2;
     padding-bottom: 25px;
-    }
+}
 
- 
+
  .headline  {
     padding-top: 0;
     font-family: 'Allan', Helvetica, Arial, sans-serif;
-    }
+}
 
-    
+
 .article li    {
     padding: 10px;
-    }
+}
 
-    
+
 a:hover {
     text-decoration: none;
+}
 
-    }
-    
 #menuList li   {
-    float: left;
     margin-left: 0;
     padding: 10px;
     list-style: none;
     display: inline;
-
-    }
+}
 
 .indent {
     margin-left: 25px;
     margin-right: 25px;
-    }
- 
+}
+
 .blog-pic   {
     float: right;
     width: 180px;
     padding-left: 20px;
     margin-top: -15px;
-    }
-    
+}
+
 /* Space out content a bit */
 body {
     /* background: url(../img/retina_wood.png) repeat 0 0;      background image via www.subtlepatterns.com, you should definitely go there. */
@@ -77,18 +74,18 @@ body {
 
 .centeredText   {
     text-align: center;
-    }
-    
-.social-logo    {
+}
+
+.social-logo li {
     display: inline;
     padding: 15px;
-    }
-    
-.social-logo:hover {opacity:0.65; }
+}
+
+.social-logo li:hover {opacity:0.65; }
 
 .container  {
     background-color: #FFEBD1;
-    }
+}
 
 .table-striped > tbody > tr:nth-child(odd) > td,
 .table-striped > tbody > tr:nth-child(odd) > th {
@@ -99,35 +96,29 @@ body {
     font-family: 'Allan', Helvetica, Arial, sans-serif;
     margin-top: -10px;
     font-size: 40px;
-    }
+}
 .jumbotron h1  {
     text-shadow: 4px 1px 1px #aaa;
     font-family: 'Lobster', cursive;
     font-size: 85px;
     color: #FFBF6E;
-    }
-    
-.jumbotron a    {
-    text-decoration: none;
-    color: inherit;
-    }
- 
+}
+
  h2 {
     font-family: 'Lobster', cursive;
     font-size: 38px;
-    }
+}
 
 h3  {
     font-family: 'Allan', Helvetica, Arial, sans-serif;
     font-size: 31px;
-    }
-    
-    
+}
+
 .social-button  {
     padding: 0px;
-    }
-    
-    
+}
+
+
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .marketing,
