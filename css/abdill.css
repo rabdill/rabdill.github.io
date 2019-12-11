@@ -4,11 +4,14 @@ html {
 
 #menuDiv   {
     right: auto;
-    padding:  0 20px 0 0;
+    margin-top: 10px;
+    padding:  10px 20px 0 0;
     border-radius: 0 50px 50px 0;
-    box-shadow: 5px 5px 15px #aaa;
 }
 
+.shadow {
+  box-shadow: 5px 5px 15px #aaa;
+}
 .datestamp  {
     margin-top: -10px;
     font-style:italic;
@@ -114,10 +117,26 @@ h3  {
     font-size: 31px;
 }
 
+h4 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
 .social-button  {
     padding: 0px;
 }
 
+.pub {
+  padding: 20px;
+  background-color: #BFDBFF;
+  margin-bottom: 20px;
+}
+.pub a {
+  color: #ff8319;
+}
+.pub a:hover {
+  color: #ffa04f;
+}
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,

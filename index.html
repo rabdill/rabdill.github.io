@@ -51,65 +51,93 @@ courtesy of http://www.onextrapixel.com/2010/02/23/how-to-use-jquery-to-make-sli
 
 <body id="top">
     <!-- Fixed navbar -->
-    <!-- <div class=" navbar-default navbar-fixed-top" role="navigation" id="menuDiv">
+    <div class="navbar-default navbar-fixed-top shadow" role="navigation" id="menuDiv">
           <ul id="menuList">
-            <li><a href="#top" class="scroll">Home</a>
             <li><a href="#about" class="scroll">About</a>
-            <li><a href="https://rabdillsci.tumblr.com">Blog</a>
+            <li><a href="#pubs" class="scroll">Publications</a>
+            <li><a href="#tools" class="scroll">Projects/writing</a>
             <li><a href="#contact" class="scroll">Contact</a>
           </ul>
-    </div> -->
+    </div>
 
 
-    <div class="jumbotron container">
+    <div class="jumbotron container shadow">
             <h1>Rich Abdill</h1>
             <h2>Bioinformatics person</h2>
 
-    <div class="row centeredText">
-        <ul class="social-logo" style="padding-left: 0;">   <!--    padding prevents list from being indented 15px off-center  -->
-            <li><a href="https://scholar.google.com/citations?user=p3JFTrIAAAAJ"><img src="img/google_scholar_small.png" alt="Google Scholar icon"></a></li>
-            <li><a href="https://orcid.org/0000-0001-9565-5832"><img src="img/orcid.png" alt="ORCID iD icon"></a></li>
-            <li><a href="https://www.twitter.com/richabdill"><img src="img/somicro/twitter.png" alt="Twitter icon"></a></li>
-            <li><a href="http://www.github.com/rabdill"><img src="img/somicro/github.png" alt="GitHub icon"></a></li>
-            <li><a href="http://www.linkedin.com/in/rabdill/"><img src="img/somicro/linkedin.png" alt="LinkedIn icon"></a></li>
-            <li><a href="mailto:rabdill@umn.edu"><img src="img/somicro/email.png" alt="Email icon"></a></li>
-        </ul>
-    </div>
+        <div class="row centeredText">
+            <ul class="social-logo" style="padding-left: 0;">   <!--    padding prevents list from being indented 15px off-center  -->
+                <li><a href="https://scholar.google.com/citations?user=p3JFTrIAAAAJ"><img src="img/google_scholar_small.png" alt="Google Scholar icon"></a></li>
+                <li><a href="https://orcid.org/0000-0001-9565-5832"><img src="img/orcid.png" alt="ORCID iD icon"></a></li>
+                <li><a href="https://www.twitter.com/richabdill"><img src="img/somicro/twitter.png" alt="Twitter icon"></a></li>
+                <li><a href="http://www.github.com/rabdill"><img src="img/somicro/github.png" alt="GitHub icon"></a></li>
+                <li><a href="http://www.linkedin.com/in/rabdill/"><img src="img/somicro/linkedin.png" alt="LinkedIn icon"></a></li>
+                <li><a href="mailto:rabdill@umn.edu"><img src="img/somicro/email.png" alt="Email icon"></a></li>
+            </ul>
+        </div>
    </div>
 
-<div class="container" >
-  <h2 id="about">About</h2>
-    <h3>Who I am</h3>
+<div class="container shadow">
+    <div id="about">
+        <h2>About</h2>
+        <a href="files/abdill_cv_web.pdf" class="button">Click here if you just want to download my CV and skip all this other nonsense.</a>
+        <h3>Who I am</h3>
         <p class="indent"><strong>My name is Rich.</strong> I live in Minneapolis. I hang out with two cats, two dogs and a lovely woman named Lauren. My hobbies include genealogy and ruining home improvement projects. My favorite color is green, but it used to be blue. My favorite book is <i>Catch-22</i>, and my favorite sport is spreadsheets.</p>
 
-    <h3>What I do</h3>
+        <h3>What I do</h3>
         <p class="indent">
             I'm currently a PhD student at the <strong>University of Minnesota</strong> studying <strong>bioinformatics and computational biology</strong> under <a href="http://blekhmanlab.org/">Dr. Ran Blekhman</a>, whose research focus is on <strong>how the human genome interacts with the human microbiome</strong>&mdash;in short, studying the bacteria that colonize the human body (there are... a lot of them in there), how they affect human health, and what role our DNA plays in managing the whole process. My current research deals with <strong>trying to understand the role microbial communities play in colorectal cancer</strong>.
         <p class="indent">
             Previously, I worked as a system programmer at the Minnesota Supercomputing Institute, and before that as a developer or consultant at companies including <i>USA Today</i>, Target and Amazon Web Services, with a focus on infrastructure automation and cloud architecture.
-
-    <h2>Work</h2>
-
-    <h3>Publications: Meta-research</h3>
-    <p>I'm very interested in the "science of science," particularly the dynamics of the scientific publishing system.
-
-    <ul>
-        <li>Mangul S, Mosqueiro T, <strong>Abdill RJ</strong>, Duong D, Mitchell K, Sarwal V, Hill B, Brito J, Littman RJ, Statz B, Lam AKM, Dayama G, Grieneisen L, Martin LS, Flint J, Eskin E, Blekhman R. <a href="https://doi.org/10.1101/452532 ">Challenges and recommendations to improve installability and archival stability of omics computational tools</a>. In press, <em>PLOS Biology</em>.</li>
-
-        <li><strong>Abdill RJ</strong> &amp; Blekhman R. <a href="https://doi.org/10.1371/journal.pbio.3000269">Rxivist.org: Sorting biology preprints using social media and readership metrics.</a>. <em>PLOS Biology</em> (2019). doi: <code>10.1371/journal.pbio.3000269</code>.</li>
-
-        <li>
-            <strong>Abdill, RJ</strong> &amp; Blekhman, R. <a href="https://doi.org/10.7554/eLife.45133">Tracking the popularity and outcomes of all bioRxiv preprints</a>. <em>eLife</em> (2019). doi: <code>10.7554/eLife.45133</code>.
-        </li>
-    </ul>
-    <h3>Tools and projects</h3>
-    <div class="row">
-        <div class="col-sm-6">
-            <a href="https://rxivist.org"><img src="img/rxivist_logo.png" class="img-fluid col-sm-12"></a>
-        </div>
     </div>
+
+    <h2>Research</h2>
+
+    <div id="pubs">
+        <h3>Publications: Meta-research</h3>
+        <p>I'm very interested in the "science of science," particularly the dynamics of the scientific publishing system.
+
+        <div class="pub shadow">
+            <h4><a href="https://doi.org/10.7554/eLife.45133">Tracking the popularity and outcomes of all bioRxiv preprints</a></h4>
+            <p><strong>Abdill, RJ</strong> &amp; Blekhman, R
+            <br><em>eLife</em> (2019). doi: <a href="https://doi.org/10.7554/eLife.45133"><code>10.7554/eLife.45133</code></a>
+
+
+            <div class="row">
+                 <div class="col-sm-7">
+                    <p>The growth of preprints in the life sciences has been reported widely and is driving policy changes for journals and funders, but little quantitative information has been published about preprint usage. Here, we report how we collected and analyzed data on all 37,648 preprints uploaded to bioRxiv.org, the largest biology-focused preprint server, in its first five years. The rate of preprint uploads to bioRxiv continues to grow (exceeding 2,100 in October 2018), as does the number of downloads (1.1 million in October 2018). We also find that two-thirds of preprints posted before 2017 were later published in peer-reviewed journals, and find a relationship between the number of downloads a preprint has received and the impact factor of the journal in which it is published. We also describe Rxivist.org, a web application that provides multiple ways to interact with preprint metadata.
+                </div>
+                <div class="col-sm-5">
+                    <img src="img/rxivist_fig6.jpg" class="img-fluid col-xs-12">
+                </div>
+            </div>
+        </div>
+        <div class="pub shadow">
+            <h4><a href="https://doi.org/10.1371/journal.pbio.3000269">Rxivist.org: Sorting biology preprints using social media and readership metrics</a></h4>
+            <p><strong>Abdill, RJ</strong> &amp; Blekhman, R
+            <br><em>PLOS Biology</em> (2019). doi: <a href="https://doi.org/10.1371/journal.pbio.3000269"><code>10.1371/journal.pbio.3000269</code></a>
+
+
+            <div class="row">
+                    <div class="col-sm-7">
+                    <p>Preprints have arrived. In increasing numbers, researchers across the life sciences are embracing the once-niche practice, shaking off decades of reluctance and posting hundreds of papers per week to preprint servers, sharing their findings with the community before embarking on the weary march through peer review. However, there are limited methods for individuals sifting through this avalanche of research to identify the preprints that are most relevant to their interests. Here, we describe <a href="https://rxivist.org">Rxivist.org</a>, a website that indexes all preprints posted to <a href="https://www.biorxiv.org">bioRxiv.org</a>, the largest preprint server in the life sciences, and allows users to filter and sort papers based on download metrics and Twitter activity over a variety of categories and time periods. In this work, we hope to make it easier for readers to find relevant research on bioRxiv and to improve the visibility of preprints currently being read and discussed online.
+                </div>
+                <div class="col-sm-5">
+                    <img src="img/rxivist_plos_fig2.png" class="img-fluid col-xs-12">
+                </div>
+            </div>
+        </div>
+
+        <ul>
+            <li>Mangul S, Mosqueiro T, <strong>Abdill RJ</strong>, Duong D, Mitchell K, Sarwal V, Hill B, Brito J, Littman RJ, Statz B, Lam AKM, Dayama G, Grieneisen L, Martin LS, Flint J, Eskin E, Blekhman R. <a href="https://doi.org/10.1101/452532 ">Challenges and recommendations to improve installability and archival stability of omics computational tools</a>. In press, <em>PLOS Biology</em>.</li>
+        </ul>
+    </div>
+
+    <h3 id="tools">Tools and projects</h3>
     <ul>
         <li><strong><a href="https://rxivist.org">Rxivist.org:</a></strong> Indexes all preprints posted to <a href="https://www.biorxiv.org">bioRxiv.org</a> and allows readers to sort and filter them based on download and Twitter activity.
+
+        <li><strong><a href="https://panlingua.rxivist.org">PanLingua:</a></strong>  A web application leveraging Google machine-translation services to enable users to search and view bioRxiv preprints in any of 104 world languages.
 
         <li><strong><a href="https://hub.docker.com/r/blekhmanlab/dada2">DADA2 Docker image</a>:</strong> A Docker container with <a href="https://benjjneb.github.io/dada2/">DADA2</a> and its dependencies pre-installed, to simplify use of the amplicon data-processing tool.
     </ul>
@@ -124,7 +152,7 @@ courtesy of http://www.onextrapixel.com/2010/02/23/how-to-use-jquery-to-make-sli
     <h2>Get in touch</h2>
     Email is best: <strong>rabdill@umn.edu</strong>.
     <h3>Public key</h3>
-    <textarea style="width:100%;" rows="10">
+    <textarea style="width:100%;" rows="5">
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: Keybase OpenPGP v2.0.58
 Comment: https://keybase.io/crypto
@@ -207,7 +235,7 @@ PhrN8JS3J7k+jgWdot7nJdLgnNK04AZzxLcdsqQKr24WNDkKErNdo4KBC3mNrF9H
 
 <h2>Ephemera</h2>
   <h3>Fun with networks</h3>
-    <p>My <strong>Erdős–Bacon number</strong> is 8:</p>
+    <p>My <strong>Erdős–Bacon number</strong> is 8.</p>
     <p>My Erdős number is <strong>4</strong>:</p>
     <ol>
         <li>I co-authored a paper with <a href="https://doi.org/10.1101/452532 ">Eleazar Eskin</a>,
