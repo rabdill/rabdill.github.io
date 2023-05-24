@@ -4,60 +4,67 @@ https://keybase.io/rabdill
 
 I hereby claim:
 
-  * I am an admin of http://richabdill.com
+  * I am an admin of https://richabdill.com
   * I am rabdill (https://keybase.io/rabdill) on keybase.
-  * I have a public key with fingerprint 9DDF 01EA 25F2 E900 2B83  FC53 C620 49FD 5B46 1C29
+  * I have a public key with fingerprint F818 76E7 EBA6 8995 7F16  385A C4AC DAC2 CE34 E40E
 
 To do so, I am signing this object:
 
 {
-    "body": {
-        "key": {
-            "eldest_kid": "010109fb967dd187257153f6818f84451792d6dc59c6679d5ba9170129e1e67a2dbb0a",
-            "fingerprint": "9ddf01ea25f2e9002b83fc53c62049fd5b461c29",
-            "host": "keybase.io",
-            "key_id": "c62049fd5b461c29",
-            "kid": "010109fb967dd187257153f6818f84451792d6dc59c6679d5ba9170129e1e67a2dbb0a",
-            "uid": "8bfcf27eb7f855292983198c46505b19",
-            "username": "rabdill"
-        },
-        "service": {
-            "hostname": "richabdill.com",
-            "protocol": "http:"
-        },
-        "type": "web_service_binding",
-        "version": 1
+  "body": {
+    "key": {
+      "eldest_kid": "012072161a0ac82cf9569965f25fa450096fa9c27b227c6cb08c2642f58ee554a20d0a",
+      "fingerprint": "f81876e7eba689957f16385ac4acdac2ce34e40e",
+      "host": "keybase.io",
+      "key_id": "c4acdac2ce34e40e",
+      "kid": "0101be3995922a9c21553fa0584baf014e5511b0436cca38f96252bb6abbae3b7a4b0a",
+      "uid": "8bfcf27eb7f855292983198c46505b19",
+      "username": "rabdill"
     },
-    "ctime": 1480796663,
-    "expire_in": 157680000,
-    "prev": "6c62290085c186b53e41a58a2f8aed3773650f065152025b9127b832d0b6cd57",
-    "seqno": 17,
-    "tag": "signature"
+    "service": {
+      "hostname": "richabdill.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1684946107,
+  "expire_in": 157680000,
+  "prev": "c599cc7020be3a9f710e6f1be4a3f18507d4bfdd0d2c19119ff08bcb965d8aff",
+  "seqno": 62,
+  "tag": "signature"
 }
 
 which yields the signature:
 
 -----BEGIN PGP MESSAGE-----
-Version: Keybase OpenPGP v2.0.58
+Version: Keybase OpenPGP v2.1.13
 Comment: https://keybase.io/crypto
 
-yMIrAnicrVJbSBVBGD6mdlEOdQpSiKj2oYuo7cyemZ05SFASdLELFHbBOu3szuqW
-5+xpzx7LPBJZJlERBN3sQkTZQxfoesCQLiRJGRaEZliQFEhhRAXaTZq1euuxmYdh
-/vm+7///b/77/nRfVlp/D4Q3cidqaY/uHk34VhfPGqiRmG1US6EaaRMfPnilweNu
-eJNlSCFJBmJTk1GsGgYgKkQqQIqJCSAmCQYRUCk0sKEjqmOsUgMxjQJVBpBywLGq
-QYMxWZPyJdOKlnMn5lhRV8hSwzBlwDWITMipLENGFFNHio6hHKSmkAlioEMqiBV2
-3GOI4pgW54WWLWLiEh4u7x/4/1x3YliOMFM3ocqZahKEIIWUKIASPYiRjBjw8ibi
-3IlqES7QjsYMq7JSqs2XRLDK0rnnq9fIX4ClV/zGFOp2RJBjju3aul0p3ipcNxby
-qG51zMNu4Sz8RyXMrKghfBSEKu7ELTsqhYBA6q7lyYIgkVWKMVbyJb41Zjk8bHkI
-pGIii+Wl4VVCEgvboHCdIB0QzJDCg0BDRIMm0bihqKoi2jJljACCMkSMAqiKD4KG
-zLBuIFXy+toctYW2KurUyoVm3CqPam7C4VLtvTtlGb60LN/IzBHegPmyxoz7O3Zl
-JaOG4ED3kXvLMzpPfI+t+yG9Ktj4ck7v7qEHc6+83T6hvu7Ht7afqbwm/x52bnPY
-aR7KnIvaxqcennzavfd8w93q291d/SuWfJsRAGcbi7+0P48faN35Qj7Zt/vDskk1
-p7oOnrYCycZpXxs/ne1pjr3fdyEjlTzWXl4aTaFrfYHOBn/q4qmWHH3l4OI19eG1
-vSSiFH8tKWyY+vN15PgympySnTiUu+pYV7qfhG4N1CdLzaKm1fZBs27m1Za2RVNz
-08ZOLvgIt30vyVu4IPuyPFi7v2pm/2Bmx/z263nZY+vmdfQENrzJeNc0+8nnM+6O
-x+tzni+4NL2otOhZ6+HRrbsO8cGb/fuX/gKM6EGm
-=d5i4
+yMNwAnicbVJ7UFRVHF4ekuwoNmIjMmMMF4wJCe7r3MeOJc2EEESCJQ8V1nPvPZe9
+Lbt32V0QWrXEIhInB9AGJUhyRKQAcclHCgyviqFwMhIGzGFGhkkkbJocQ2HsXor/
+Ov+cOb/zfd/5ft/59a/2Mxh9+r8a7x2mp4J8hnpOFhok+5ZrHkxQpRLM5MGsaGlD
++RJyuc1WRcJMGE6QOEsSDAFxKHKkKPOA4XkGyCSQIQ1wnGdkyIskK5AkKzKigHMi
+ydCkDDiEAKAhiUs4xGIwWbHnIafDqdjdmqzMERzLIBYJkOF4HrAywVAcgCINRQmK
+pIgoGtE40ogW1aUzNHMCdKFYRdVq2sG8ZO9/8Mu+cUJAlCbNk6RukACAkiEOOFqA
+Mk7QmjmCEHCaYkQRUpzMMyQgBYGBggARJbCQFpZ8Fy7JcYIsyqRml5U5AEie5DmK
+4DmRZgAOBILXgS7ktEMb0tBOKEhKfj52IAbTikWKiPRc9UaWAYpo+RcTK6o2jexw
+qm5VVPO1O4vb7XCZdK67xKGD9yHB/J+MWVDskhakxihCTpei2jEToSFFt6LrEgxH
+8zRD4GwMhoodihOZFR0BWIbDtaW/g4r02ADPiyKLk7iWEeRllsARI2uB0ZCSCQ7g
+rEQLsiThEikSPEHwsoxzgihoHy9xUJYxvbECu4qZGFLzCfM0TZeSZ4fuQifCDvT2
+7PE3+BgNASt89QkzGAOfXZ67rU/XPM2ej1wYafSb3Hy+Jat1g3Fx/Is9b5eGTXXJ
+0xlbHhhHZlXO2zqgdn5Q/1fX3pEae8rtq3G7q0GZJeFEpjWkZDYw63xsempG+aEK
+8lfqoWc4LejriHcjqxv6Tu6MOLfmN2PeC2AAfFz583ib4ZRhslroyZwcjT/6RsB9
+6YLl4PGOc/QOacDYErp5e0blpmaH7Vb9nciVc+3ck6y8ByG/fDP39/iN9G0OY1Bx
+8ve1VEXvSsuLOYejbvuWdpp+r5inAwtK2pueqeW/XOst/bbzvbqf/DPA8+7cwTc9
+VXecC5tWfbKBLLsZOlMZ9RrdvbGhxvVZ+Fij+XUfWwOYsC4Ge7v63lp9NjFjZnYy
+ruuaLe7gqdHG68bgVcM7vI7MhviR63ernyNAXfvZsOIft4V7uPJ1/M1kKTW760ha
+wenw3KQnWPZQR1KK32LM/QDPmf2KtTv61o1H0/6PF9YlNgem7Jqw7prmPrximXw8
+VHUJzEfvGzt02aM8PJoWcTFp4pVL+U3W7/Cmoe4jFzos4bk5XjWhPn40+Z0rZbU7
+26K23vWm9t4rKljRt7HV9kdcFPfq3tTynLBiZSS4Zb/cZvrzo6mE3J4ySJzuzwot
+w0KORRdTY4NS61rJ17b+Udr698Olzvar2z+/+MPxxLjkyxNnanYf+9R8L4Gprkp/
++fDgXJnSfMI0U1f70tg/zcjBjA==
+=ZZoX
 -----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
