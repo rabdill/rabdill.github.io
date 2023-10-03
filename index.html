@@ -10,9 +10,11 @@
 
     <title>Dr. Richard Abdill | Computational biologist</title>
 
-    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Allan' rel='stylesheet' type='text/css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Enriqueta&family=Sarabun&display=swap" rel="stylesheet">
+
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/abdill.css" rel="stylesheet">
 
@@ -71,15 +73,13 @@ courtesy of http://www.onextrapixel.com/2010/02/23/how-to-use-jquery-to-make-sli
             <ul class="social-logo" style="padding-left: 0;">   <!--    padding prevents list from being indented 15px off-center  -->
                 <li><a href="https://scholar.google.com/citations?user=p3JFTrIAAAAJ"><img src="img/google_scholar_small.png" alt="Google Scholar icon"></a></li>
                 <li><a href="https://orcid.org/0000-0001-9565-5832"><img src="img/orcid.png" alt="ORCID iD icon"></a></li>
-                <!--<li><a href="https://www.twitter.com/richabdill"><img src="img/somicro/twitter.png" alt="Twitter icon"></a></li>-->
                 <li><a rel="me" href="https://genomic.social/@richabdill"><img src="img/mastodon.svg" alt="Mastodon icon" width="32"></a></li>
                 <li><a href="http://www.github.com/rabdill"><img src="img/somicro/github.png" alt="GitHub icon"></a></li>
-                <!--<li><a href="http://www.linkedin.com/in/rabdill/"><img src="img/somicro/linkedin.png" alt="LinkedIn icon"></a></li>-->
             </ul>
         </div>
    </div>
 
-<div class="container shadow">
+<div class="container">
     <div id="about">
         <h2>About</h2>
         <div class="row">
@@ -97,106 +97,57 @@ courtesy of http://www.onextrapixel.com/2010/02/23/how-to-use-jquery-to-make-sli
         <div class="row">
             <div class="col-sm-12">
                 <h3>What I do</h3>
-                <p>I'm currently the lab manager of the <a href="http://blekhmanlab.org/">Blekhman Lab</a> at the University of Chicago, where we study the human microbiome. My work is focused on gut microbes and how they interact with their hosts. Previously, I was a bioinformatician in the labs of Drs. <a href="https://www.med.upenn.edu/jainlab/">Rajan Jain</a> and <a href="https://ericjoycelab.com/">Eric Joyce</a>, where I worked on epigenetics and nuclear architecture.
-                <p>I got my PhD from the University of Minnesota; my dissertation was titled "Using public data to evaluate global dynamics in biology publishing and the human microbiome," and its chapters are scattered around my Google Scholar profile. Before that, I worked as a software developer at the Minnesota Supercomputing Institute, and at companies including USA Today, Target and Amazon Web Services.
+                <p>I'm currently the lab manager of the <a href="http://blekhmanlab.org/">Blekhman Lab</a> at the University of Chicago, where we study the human microbiome. My work is focused on gut microbes and how they interact with their hosts, and how we can use big data and machine learning to extract more meaning from noisy ecological data. Previously, I was a bioinformatician in the labs of Drs. <a href="https://www.med.upenn.edu/jainlab/">Rajan Jain</a> and <a href="https://ericjoycelab.com/">Eric Joyce</a>, where I worked on epigenetics and nuclear architecture.
+                <p>I got my PhD from the University of Minnesota. Before that, I worked as a software developer at the Minnesota Supercomputing Institute, and at companies including USA Today, Target and Amazon Web Services.
             </div>
         </div>
     </div>
 
     <h2>Research</h2>
-
+        <p>All my publications are on <a href="https://scholar.google.com/citations?user=p3JFTrIAAAAJ">my Google Scholar page</a>, but my first-author papers are listed here.
     <div id="pubs">
-        <h3>Publications: Meta-research</h3>
-        <p>I'm very interested in the "science of science." All my publications are on <a href="https://scholar.google.com/citations?user=p3JFTrIAAAAJ">my Google Scholar page</a>, but here are my first-author papers:
-
+        <h3>Publications: Human microbiome</h3>
+        <p>My primary field of study is the human gut microbiome, especially novel approaches to the analysis of sequencing-based assays.</p>
         <div class="pub shadow">
             <div class="row">
                 <div class="col-sm-12">
-                    <h4><a href="https://doi.org/10.7554/eLife.45133">Tracking the popularity and outcomes of all bioRxiv preprints</a></h4>
-                    <p><strong>Abdill RJ</strong> &amp; Blekhman R
-                    <br><em>eLife</em> (2019). doi: <a href="https://doi.org/10.7554/eLife.45133"><code>10.7554/eLife.45133</code></a>
+                    <h4><a href="https://doi.org/*tk">Integration of 168,000 samples reveals global patterns of the human gut microbiome</a></h4>
+                    <p><strong>Abdill RJ*</strong>, Graham SP*, Rubinetti V, Albert FW, Greene CS, Davis S &amp; Blekhman R
+                    <br>bioRxiv (2023)
                 </div>
             </div>
 
             <div class="row">
-                 <div class="col-sm-7">
+                <div class="col-sm-12">
                     <div class="scite-badge"
-                            data-doi="10.7554/eLife.45133"
+                            data-doi="*tk"
                             data-layout="horizontal"
                             data-show-zero="false"
                             data-show-labels="false">
                     </div>
+                </div>
+                <div class="col-sm-12" style="padding: 15px;">
+                    <a href="*tk" target="_blank">
+                        <img src="img/compendium_fig2.png" class="img-fluid col-xs-12">
+                    </a>
+                </div>
+                <div class="col-sm-12">
                     <link rel="stylesheet" type="text/css" href="https://cdn.scite.ai/badge/scite-badge-latest.min.css">
                     <script async type="application/javascript" src="https://cdn.scite.ai/badge/scite-badge-latest.min.js">
                     </script>
-                    <p>The growth of preprints in the life sciences has been reported widely and is driving policy changes for journals and funders, but little quantitative information has been published about preprint usage. Here, we report how we collected and analyzed data on all 37,648 preprints uploaded to bioRxiv.org, the largest biology-focused preprint server, in its first five years. The rate of preprint uploads to bioRxiv continues to grow (exceeding 2,100 in October 2018), as does the number of downloads (1.1 million in October 2018). We also find that two-thirds of preprints posted before 2017 were later published in peer-reviewed journals, and find a relationship between the number of downloads a preprint has received and the impact factor of the journal in which it is published. We also describe Rxivist.org, a web application that provides multiple ways to interact with preprint metadata.
-                </div>
-                <div class="col-sm-5">
-                    <a href="https://elifesciences.org/articles/45133/figures#fig6" target="_blank">
-                        <img src="img/rxivist_fig6.jpg" class="img-fluid col-xs-12">
-                    </a>
+                    <p>Understanding factors that shape variation in the human microbiome is a major goal of biology research. While other genomics fields have used large compendia to extract systematic insights requiring otherwise impractical sample sizes, there has been no comparable resource for the 16S rRNA sequencing data commonly used to quantify microbiome composition. To help close this gap, we assembled 168,484 publicly available human gut microbiome samples, processed with a single pipeline and combined into the largest unified microbiome dataset to date. We use this resource, available at microbiomap.org, to evaluate global microbiome variation. We find that relative abundances of the 65 most common microbial genera differ between at least two world regions, and that the gut microbiomes in undersampled world regions, such as Central and Southern Asia, differ significantly from the more thoroughly characterized microbiomes of Europe and Northern America. We anticipate this new compendium will enable advanced applied and methodological research.
                 </div>
                 <!-- <div>PRESS MENTIONS: -->
             </div>
         </div>
-        <div class="pub shadow">
-            <div class="row">
-                <div class="col-sm-12">
-                    <h4><a href="https://doi.org/10.1371/journal.pbio.3000269">Rxivist.org: Sorting biology preprints using social media and readership metrics</a></h4>
-                    <p><strong>Abdill RJ</strong> &amp; Blekhman R
-                    <br><em>PLOS Biology</em> (2019). doi: <a href="https://doi.org/10.1371/journal.pbio.3000269"><code>10.1371/journal.pbio.3000269</code></a>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-sm-7">
-                    <div class="scite-badge"
-                            data-doi="10.1371/journal.pbio.3000269"
-                            data-layout="horizontal"
-                            data-show-zero="false"
-                            data-show-labels="false">
-                    </div>
-                    <p>Preprints have arrived. In increasing numbers, researchers across the life sciences are embracing the once-niche practice, shaking off decades of reluctance and posting hundreds of papers per week to preprint servers, sharing their findings with the community before embarking on the weary march through peer review. However, there are limited methods for individuals sifting through this avalanche of research to identify the preprints that are most relevant to their interests. Here, we describe <a href="https://rxivist.org">Rxivist.org</a>, a website that indexes all preprints posted to <a href="https://www.biorxiv.org">bioRxiv.org</a>, the largest preprint server in the life sciences, and allows users to filter and sort papers based on download metrics and Twitter activity over a variety of categories and time periods. In this work, we hope to make it easier for readers to find relevant research on bioRxiv and to improve the visibility of preprints currently being read and discussed online.
-                </div>
-                <div class="col-sm-5">
-                    <a href="https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000269#pbio-3000269-g002" target="_blank">
-                        <img src="img/rxivist_plos_fig2.png" class="img-fluid col-xs-12">
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="pub shadow">
-            <div class="row">
-                <div class="col-sm-12">
-                    <h4><a href="https://doi.org/10.7554/eLife.58496">International authorship and collaboration across bioRxiv preprints</a></h4>
-                    <p><strong>Abdill RJ</strong>, Adamowicz EM &amp; Blekhman R
-                    <br><em>eLife</em> (2020). doi: <a href="https://doi.org/10.7554/eLife.58496"><code>10.7554/eLife.58496</code></a>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-sm-7">
-                    <div class="scite-badge"
-                            data-doi="10.7554/eLife.58496"
-                            data-layout="horizontal"
-                            data-show-zero="false"
-                            data-show-labels="false">
-                    </div>
-                    <p>Preprints are becoming well established in the life sciences, but relatively little is known about the demographics of the researchers who post preprints and those who do not, or about the collaborations between preprint authors. Here, based on an analysis of 67,885 preprints posted on bioRxiv, we find that some countries, notably the United States and the United Kingdom, are overrepresented on bioRxiv relative to their overall scientific output, while other countries (including China, Russia, and Turkey) show lower levels of bioRxiv adoption. We also describe a set of ‘contributor countries’ (including Uganda, Croatia and Thailand): researchers from these countries appear almost exclusively as non-senior authors on international collaborations. Lastly, we find multiple journals that publish a disproportionate number of preprints from some countries, a dynamic that almost always benefits manuscripts from the US.
-                </div>
-                <div class="col-sm-5">
-                    <a href="https://elifesciences.org/articles/58496/figures#fig3" target="_blank">
-                        <img src="img/biorxiv_countries.png" class="img-fluid col-xs-12">
-                    </a>
-                </div>
-            </div>
-        </div>
+        <h3>Publications: Meta-research</h3>
+        <p>I'm very interested in the "science of science" and have done work collecting and evaluating metadata from the bioRxiv and medRxiv preprint servers, PubMed Central, and NCBI databases.
         <div class="pub shadow">
             <div class="row">
                 <div class="col-sm-12">
                     <h4><a href="https://doi.org/10.1101/2021.09.02.458641">Public human microbiome data dominated by highly developed countries</a></h4>
                     <p><strong>Abdill RJ</strong>, Adamowicz EM &amp; Blekhman R
-                        <br><em>PLOS Biology</em> (2022). doi: <a href="https://doi.org/10.1371/journal.pbio.3001536"><code>10.1371/journal.pbio.3001536</code></a>
+                        <br><em>PLOS Biology</em> (2022)
                     <div class="scite-badge"
                             data-doi="10.1371/journal.pbio.3001536"
                             data-layout="horizontal"
@@ -208,13 +159,88 @@ courtesy of http://www.onextrapixel.com/2010/02/23/how-to-use-jquery-to-make-sli
 
 
             <div class="row">
-                <div class="col-sm-7">
+                <div class="col-sm-12">
+                    <a href="https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3001536#pbio-3001536-g001" target="_blank">
+                        <img src="img/microbiome_map.png" class="pull-right col-xs-4">
+                    </a>
                     <p>The importance of sampling from globally representative populations has been well established in human genomics. In human microbiome research, however, we lack a full understanding of the global distribution of sampling in research studies. This information is crucial to better understand global patterns of microbiome-associated diseases and to extend the health benefits of this research to all populations. Here, we analyze the country of origin of all 444,829 human microbiome samples that have been collected to date and are available from the world’s three largest genomic data repositories, including the Sequence Read Archive (SRA). We show that more than 71% of publicly available human microbiome samples with a known origin come from Europe, the United States, and Canada, including 46.8% from the United States alone, despite the country representing only 4.3% of the global population. We also find that central and southern Asia is the most underrepresented region: Countries such as India, Pakistan, and Bangladesh account for more than a quarter of the world population but make up only 1.8 percent of human microbiome samples. These results demonstrate a critical need to ensure more global representation of participants in microbiome studies.
+                    
+                    
                 </div>
                 <div class="col-sm-5">
-                    <a href="https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3001536#pbio-3001536-g001" target="_blank">
-                        <img src="img/microbiome_map.png" class="img-fluid col-xs-12">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="pub shadow">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h4><a href="https://doi.org/10.7554/eLife.58496">International authorship and collaboration across bioRxiv preprints</a></h4>
+                    <p><strong>Abdill RJ</strong>, Adamowicz EM &amp; Blekhman R
+                    <br><em>eLife</em> (2020)
+                </div>
+                <div class="scite-badge"
+                            data-doi="10.7554/eLife.58496"
+                            data-layout="horizontal"
+                            data-show-zero="false"
+                            data-show-labels="false">
+                    </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <a href="https://elifesciences.org/articles/58496/figures#fig3" target="_blank">
+                        <img src="img/biorxiv_countries.png"  class="pull-right col-xs-5">
                     </a>
+                    <p>Preprints are becoming well established in the life sciences, but relatively little is known about the demographics of the researchers who post preprints and those who do not, or about the collaborations between preprint authors. Here, based on an analysis of 67,885 preprints posted on bioRxiv, we find that some countries, notably the United States and the United Kingdom, are overrepresented on bioRxiv relative to their overall scientific output, while other countries (including China, Russia, and Turkey) show lower levels of bioRxiv adoption. We also describe a set of 'contributor countries' (including Uganda, Croatia and Thailand): researchers from these countries appear almost exclusively as non-senior authors on international collaborations. Lastly, we find multiple journals that publish a disproportionate number of preprints from some countries, a dynamic that almost always benefits manuscripts from the US.
+                </div>
+            </div>
+        </div>
+        <div class="pub shadow">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h4><a href="https://doi.org/10.1371/journal.pbio.3000269">Rxivist.org: Sorting biology preprints using social media and readership metrics</a></h4>
+                    <p><strong>Abdill RJ</strong> &amp; Blekhman R
+                    <br><em>PLOS Biology</em> (2019)
+                </div>
+                <div class="scite-badge"
+                            data-doi="10.1371/journal.pbio.3000269"
+                            data-layout="horizontal"
+                            data-show-zero="false"
+                            data-show-labels="false">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <a href="https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000269#pbio-3000269-g002" target="_blank">
+                        <img src="img/rxivist_plos_fig2.png" class="pull-right col-xs-4">
+                    </a>
+                    <p>Preprints have arrived. In increasing numbers, researchers across the life sciences are embracing the once-niche practice, shaking off decades of reluctance and posting hundreds of papers per week to preprint servers, sharing their findings with the community before embarking on the weary march through peer review. However, there are limited methods for individuals sifting through this avalanche of research to identify the preprints that are most relevant to their interests. Here, we describe Rxivist.org, a website that indexes all preprints posted to <a href="https://www.biorxiv.org">bioRxiv.org</a>, the largest preprint server in the life sciences, and allows users to filter and sort papers based on download metrics and Twitter activity over a variety of categories and time periods. In this work, we hope to make it easier for readers to find relevant research on bioRxiv and to improve the visibility of preprints currently being read and discussed online.
+                </div>
+            </div>
+        </div>
+        <div class="pub shadow">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h4><a href="https://doi.org/10.7554/eLife.45133">Tracking the popularity and outcomes of all bioRxiv preprints</a></h4>
+                    <p><strong>Abdill RJ</strong> &amp; Blekhman R
+                    <br><em>eLife</em> (2019)
+                </div>
+                <div class="scite-badge"
+                            data-doi="10.7554/eLife.45133"
+                            data-layout="horizontal"
+                            data-show-zero="false"
+                            data-show-labels="false">
+                </div>
+            </div>
+
+            <div class="row">
+                 <div class="col-sm-12">
+                    <a href="https://elifesciences.org/articles/45133/figures#fig6" target="_blank">
+                        <img src="img/rxivist_fig6.jpg" class="pull-right col-xs-6">
+                    </a>
+                    <p>The growth of preprints in the life sciences has been reported widely and is driving policy changes for journals and funders, but little quantitative information has been published about preprint usage. Here, we report how we collected and analyzed data on all 37,648 preprints uploaded to bioRxiv.org, the largest biology-focused preprint server, in its first five years. The rate of preprint uploads to bioRxiv continues to grow (exceeding 2,100 in October 2018), as does the number of downloads (1.1 million in October 2018). We also find that two-thirds of preprints posted before 2017 were later published in peer-reviewed journals, and find a relationship between the number of downloads a preprint has received and the impact factor of the journal in which it is published. We also describe Rxivist.org, a web application that provides multiple ways to interact with preprint metadata.
                 </div>
             </div>
         </div>
@@ -224,9 +250,9 @@ courtesy of http://www.onextrapixel.com/2010/02/23/how-to-use-jquery-to-make-sli
     <ul>
         <li><strong><a href="https://hub.docker.com/r/blekhmanlab/dada2">DADA2 Docker image</a>:</strong> A Docker container with <a href="https://benjjneb.github.io/dada2/">DADA2</a> and its dependencies pre-installed, to simplify use of the amplicon data-processing tool.
 
-        <li><strong><a href="https://rxivist.org">Rxivist.org:</a></strong> Indexes all preprints posted to <a href="https://www.biorxiv.org">bioRxiv.org</a> and allows readers to sort and filter them based on download and Twitter activity. *(Inactive; code availabe <a href="https://github.com/blekhmanlab/rxivist">on GitHub</a>.)*
+        <li><strong>Rxivist:</strong> Indexes all preprints posted to <a href="https://www.biorxiv.org">bioRxiv.org</a> and allows readers to sort and filter them based on download and Twitter activity. <em>(Inactive; code available <a href="https://github.com/blekhmanlab/rxivist">on GitHub</a>.)</em>
 
-        <li><strong>PanLingua:</strong>  A web application leveraging Google machine-translation services to enable users to search and view bioRxiv preprints in any of 104 world languages. *(Inactive; code availabe <a href="https://github.com/blekhmanlab/panlingua">on GitHub</a>.)*
+        <li><strong>PanLingua:</strong>  A web application leveraging Google machine-translation services to enable users to search and view bioRxiv preprints in any of 104 world languages. <em>(Inactive; code available <a href="https://github.com/blekhmanlab/panlingua">on GitHub</a>.)</em>
     </ul>
 
     <h3>Writing</h3>
@@ -312,7 +338,7 @@ bgCM+NHcJ1I=
     (Verifiable at <a href="https://keybase.io/rabdill">keybase.io</a>)
   </section>
 
-<h2>Ephemera</h2>
+  <!--<h2>Ephemera</h2>
   <h3>Fun with networks</h3>
     <p>My <strong>Erdős–Bacon number</strong> is 8.</p>
     <p>My Erdős number is <strong>4</strong>:</p>
@@ -330,7 +356,7 @@ bgCM+NHcJ1I=
         <li>who appeared in <em>Burn Hollywood Burn</em> with <a href="https://en.wikipedia.org/wiki/An_Alan_Smithee_Film%3a_Burn_Hollywood_Burn">Billy Bob Thornton</a>,
         <li>who appeared in <em>Jayne Mansfield's Car</em> with <a href="https://en.wikipedia.org/wiki/Jayne_Mansfield's_Car">Kevin Bacon</a>.
     </ol>
-
-  </div> <!-- /container -->
+    -->
+  </div>
 </body>
 </html>

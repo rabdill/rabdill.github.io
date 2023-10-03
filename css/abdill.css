@@ -1,7 +1,3 @@
-html {
-  background-color: #FFDAB9;
-}
-
 #menuDiv   {
     right: auto;
     margin-top: 10px;
@@ -29,13 +25,6 @@ html {
     border-color: #C2C2C2;
     padding-bottom: 25px;
 }
-
-
- .headline  {
-    padding-top: 0;
-    font-family: 'Allan', Helvetica, Arial, sans-serif;
-}
-
 
 .article li    {
     padding: 10px;
@@ -68,10 +57,10 @@ a:hover {
 /* Space out content a bit */
 body {
     /* background: url(../img/retina_wood.png) repeat 0 0;      background image via www.subtlepatterns.com, you should definitely go there. */
-    background-color: #FFDAB9;
+    background-color: #fff;
     padding-top: 25px;
     padding-bottom: 200px;
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Sarabun', sans-serif;
     font-size: 17px;
 }
 
@@ -87,34 +76,32 @@ body {
 .social-logo li:hover {opacity:0.65; }
 
 .container  {
-    background-color: #FFEBD1;
-}
-
-.table-striped > tbody > tr:nth-child(odd) > td,
-.table-striped > tbody > tr:nth-child(odd) > th {
-  background-color: #FFEFDB;
+    background-color: #fff;
 }
 
 .jumbotron h2 {
-    font-family: 'Allan', Helvetica, Arial, sans-serif;
+    font-family: 'Enriqueta', Helvetica, Arial, sans-serif;
     margin-top: -10px;
     font-size: 40px;
+    letter-spacing: -1px;
 }
 .jumbotron h1  {
     text-shadow: 4px 1px 1px #aaa;
-    font-family: 'Lobster', cursive;
-    font-size: 85px;
+    font-family: 'Monoton', cursive;
+    font-size: 55px;
     color: #FFBF6E;
 }
 
  h2 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Enriqueta', Helvetica, Arial, sans-serif;
     font-size: 38px;
+    letter-spacing: -1px;
 }
 
 h3  {
-    font-family: 'Allan', Helvetica, Arial, sans-serif;
+    font-family: 'Enriqueta', Helvetica, Arial, sans-serif;
     font-size: 31px;
+    letter-spacing: -1px;
 }
 
 h4 {
