@@ -66,14 +66,14 @@ courtesy of http://www.onextrapixel.com/2010/02/23/how-to-use-jquery-to-make-sli
     <div class="jumbotron container shadow">
         <div class="row">
             <h1>Dr. Richard Abdill</h1>
-            <h2>Computational biologist</h2>
+            <h3><em>Open data, bioinformatics and meta-research</em></h3>
         </div>
 
         <div class="row centeredText">
             <ul class="social-logo" style="padding-left: 0;">   <!--    padding prevents list from being indented 15px off-center  -->
+                <li><a href="http://www.github.com/rabdill"><img src="img/somicro/github.png" alt="GitHub icon"></a></li>
                 <li><a href="https://scholar.google.com/citations?user=p3JFTrIAAAAJ"><img src="img/google_scholar_small.png" alt="Google Scholar icon"></a></li>
                 <li><a href="https://orcid.org/0000-0001-9565-5832"><img src="img/orcid.png" alt="ORCID iD icon"></a></li>
-                <li><a href="http://www.github.com/rabdill"><img src="img/somicro/github.png" alt="GitHub icon"></a></li>
                 <li><a href="https://bsky.app/profile/richabdill.com"><img src="img/bsky.png" alt="Bluesky icon"></a></li>
             </ul>
         </div>
@@ -81,40 +81,26 @@ courtesy of http://www.onextrapixel.com/2010/02/23/how-to-use-jquery-to-make-sli
 
 <div class="container">
     <div id="about">
-        <h2>About</h2>
         <div class="row">
-            <div class="col-xs-8">
-                <h3>Who I am</h3>
-                <p>My name is Rich. I live in New Jersey. My hobbies include genealogy and ruining home improvement projects. My favorite color is green, but it used to be blue. My favorite book is <i>Catch-22</i>, and my favorite sport is spreadsheets (so... baseball).</p>
-            </div>
-            <div class="col-xs-4">
-                <figure class="figure">
-                    <img src="img/rich_cartoon.png" class="figure-img img-fluid rounded img-thumbnail" alt="Richard Abdill">
-                    <figcaption class="figure-caption text-right" style="font-size:0.75em;"><em>Illustration by <a href="https://ethankocak.com/">Ethan Kocak</a></em></figcaption>
-                </figure>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12">
-                <h3>What I do</h3>
-            </div>
             <div class="col-sm-6 col-xs-3">
                 <figure class="figure">
                     <img src="img/rich_phoebe.png" class="figure-img img-fluid rounded img-thumbnail" alt="Richard Abdill">
                 </figure>
             </div>
             <div class="col-sm-6 col-xs-9">
-                <p>I'm currently a staff researcher in the <a href="http://blekhmanlab.org/">Blekhman Lab</a> at the University of Chicago, where we study the human microbiome. My work is focused on gut microbes and how they interact with their hosts, and how we can use big data and machine learning to extract more meaning from noisy ecological data. Previously, I was a bioinformatician in the labs of Drs. <a href="https://www.med.upenn.edu/jainlab/">Rajan Jain</a> and <a href="https://ericjoycelab.com/">Eric Joyce</a>, where I worked on epigenetics and nuclear architecture.
-                <p>I got my PhD from the University of Minnesota. Before that, I worked as a software developer at the Minnesota Supercomputing Institute, and at companies including USA Today, Target and Amazon Web Services.
+                <p>I'm a senior biomedical data manager at <a href="http://blekhmanlab.org/">Sage Bionetworks</a>, a nonprofit research organization that works with research groups, universities and funders to coordinate open sharing of biomedical research data.
+                I previously worked as a computational biologist studying the human microbiome (<a href="https://blekhmanlab.org" target="_blank">University of Chicago</a>, University of Minnesota)
+                and the epigenetics of nuclear architecture (<a href="https://www.med.upenn.edu/jainlab/">University</a> of <a href="https://ericjoycelab.com/">Pennsylvania</a>).
+                Before that, I was a software developer at the Minnesota Supercomputing Institute and at companies including USA Today, Target and Amazon Web Services.
             </div>
         </div>
     </div>
 
     <h2>Research</h2>
-        <p>All my publications are on <a href="https://scholar.google.com/citations?user=p3JFTrIAAAAJ">my Google Scholar page</a>, but the papers that <a href="https://xkcd.com/2977/">best describe</a> my research interests are here.
+        <p>The papers that best illustrate my fascination with data are of the <a href="https://xkcd.com/2977/">"map of every tree"</a> class: evaluating the ways data is generated and shared to better characterize the things we think we understand.
+            Please see <a href="https://scholar.google.com/citations?user=p3JFTrIAAAAJ">my Google Scholar page</a> for a complete list of publications.
+            
     <div id="pubs">
-        <h3>Human microbiome</h3>
-        <p>My primary field of study is the human gut microbiome, especially novel approaches to the analysis of sequencing-based assays. I'm a leader of the <a href="https://microbiomap.org">Human Microbiome Compendium</a> project.</p>
         <div class="pub shadow">
             <div class="row">
                 <div class="col-sm-12">
@@ -166,9 +152,6 @@ courtesy of http://www.onextrapixel.com/2010/02/23/how-to-use-jquery-to-make-sli
 
             </div>
         </div>
-
-        <h3>Meta-research</h3>
-        <p>I'm very interested in the "science of science" and have done work collecting and evaluating metadata from the bioRxiv and medRxiv preprint servers, PubMed Central, and NCBI databases.
 
         <div class="pub shadow">
             <div class="row">
@@ -254,7 +237,7 @@ courtesy of http://www.onextrapixel.com/2010/02/23/how-to-use-jquery-to-make-sli
             </ul>
         </div>
     </div>
-
+<!--
     <h3 id="tools">Tools and projects</h3>
     <ul>
         <li><strong><a href="https://github.com/blekhmanlab/compendium2">Compendium Manager</a>:</strong> An active open-source project developing a Python-based command line tool for managing the processing of bulk sequencing data.
@@ -266,17 +249,11 @@ courtesy of http://www.onextrapixel.com/2010/02/23/how-to-use-jquery-to-make-sli
         <li><strong>PanLingua:</strong>  A web application leveraging Google machine-translation services to enable users to search and view bioRxiv preprints in any of 104 world languages. <em>(Inactive; code available <a href="https://github.com/blekhmanlab/panlingua">on GitHub</a>.)</em>
     </ul>
 
-    <h3>Writing</h3>
-    <ul>
-        <li>Nov 2020: <a href="https://richabdill.com/robsim/">Rob is the best: A more stable method of comparing fantasy football teams using Monte Carlo simulation of schedules in R</a>
-        <li>Jan 2020, with Humberto Debat: <a href="https://asapbio.org/panlingua">Search for preprints in your native language with PanLingua</a> (en <a href="http://ria.inta.gob.ar/contenido/panlingua-una-herramienta-para-la-democratizacion-del-conocimiento-disponible-en-preprints">español</a>)
-        <li>May 2019: <a href="https://medium.com/@richard.abdill/posting-a-preprint-made-our-paper-better-83de5f97d7f2">How posting a preprint made our paper better</a>
-    </ul>
-
+-->
 
   <section id="contact">
     <h2>Get in touch</h2>
-    Email is best: <strong>rabdill ~at~ uchicago.edu</strong>.
+    Email is best: <strong>richard.abdill ~at~ sagebase.org</strong>.
     <h3>Public key</h3>
     <textarea style="width:100%;" rows="5">
 -----BEGIN PGP PUBLIC KEY BLOCK-----
@@ -349,25 +326,31 @@ bgCM+NHcJ1I=
     (Verifiable at <a href="https://keybase.io/rabdill">keybase.io</a>)
   </section>
 
-  <!--<h2>Ephemera</h2>
+  <h2>Ephemera</h2>
+ <!--
+  <h3>Writing</h3>
+    <ul>
+        <li>Nov 2020: <a href="https://richabdill.com/robsim/">Rob is the best: A more stable method of comparing fantasy football teams using Monte Carlo simulation of schedules in R</a>
+        <li>Jan 2020, with Humberto Debat: <a href="https://asapbio.org/panlingua">Search for preprints in your native language with PanLingua</a> (en <a href="http://ria.inta.gob.ar/contenido/panlingua-una-herramienta-para-la-democratizacion-del-conocimiento-disponible-en-preprints">español</a>)
+        <li>May 2019: <a href="https://medium.com/@richard.abdill/posting-a-preprint-made-our-paper-better-83de5f97d7f2">How posting a preprint made our paper better</a>
+    </ul> 
   <h3>Fun with networks</h3>
-    <p>My <strong>Erdős–Bacon number</strong> is 8.</p>
+    <p>My <strong>Erdős&ndash;Bacon number</strong> is 7.</p>
     <p>My Erdős number is <strong>4</strong>:</p>
     <ol>
-        <li>I co-authored a paper with <a href="https://doi.org/10.1371/journal.pbio.3000333">Eleazar Eskin</a>,
+        <li>I co-authored a paper with   <a href="https://doi.org/10.1371/journal.pbio.3000333">Eleazar Eskin</a>,
         <li>who co-authored a paper with <a href="https://doi.org/10.1089/cmb.2012.0258">Eran Halperin</a>,
         <li>who co-authored a paper with <a href="https://doi.org/10.1016/S0012-365X(97)00041-1">Noga Alon</a>,
         <li>who co-authored a paper with <a href="https://doi.org/10.1007/BF02187731">Paul Erdős</a>.
     </ol>
 
-    <p>My Bacon number is <strong>4</strong>, if you allow a TV appearance as the origin node:
+    <p>My Bacon number is <strong>3</strong>, if you allow a TV appearance as the origin node:
     <ol>
-        <li>I was on the <em>Nancy Grace Show</em> with <a href="http://transcripts.cnn.com/TRANSCRIPTS/1206/18/ng.01.html">Nancy Grace</a>,
-        <li>who appeared in <em>A Lawyer Walks into a Bar</em> with <a href="https://en.wikipedia.org/wiki/A_Lawyer_Walks_into_a_Bar">Robert Shapiro</a>,
-        <li>who appeared in <em>Burn Hollywood Burn</em> with <a href="https://en.wikipedia.org/wiki/An_Alan_Smithee_Film%3a_Burn_Hollywood_Burn">Billy Bob Thornton</a>,
-        <li>who appeared in <em>Jayne Mansfield's Car</em> with <a href="https://en.wikipedia.org/wiki/Jayne_Mansfield's_Car">Kevin Bacon</a>.
-    </ol>
-    -->
+        <li>I was a panelist on the <em>Nancy Grace Show</em> (2012) with Nancy Grace,
+        <li>who appeared in <em>Hancock</em> (2008) with <a href="https://en.wikipedia.org/wiki/Hancock_(film)">Charlize Theron</a>,
+        <li>who appeared in <em>Trapped</em> (2002) with <a href="https://en.wikipedia.org/wiki/Trapped_(2002_film)">Kevin Bacon</a>.
+    </ol>-->
+
   </div>
   <link rel="stylesheet" type="text/css" href="https://cdn.scite.ai/badge/scite-badge-latest.min.css">
   <script async type="application/javascript" src="https://cdn.scite.ai/badge/scite-badge-latest.min.js">
